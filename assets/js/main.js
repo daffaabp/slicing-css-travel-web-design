@@ -28,3 +28,13 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".bx-chevron-left-circle",
     },
  });
+
+//  var swiper = new Swiper(".mySwiperTesti", {
+//    pagination: {
+//      el: ".swiper-pagination",
+//    },
+//    autoplay: {
+//       delay: 2500,
+//       disableOnInteraction: false,
+//     },
+//  });
