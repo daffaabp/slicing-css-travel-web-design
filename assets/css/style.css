@@ -323,7 +323,7 @@ section {
    bottom: 0;
    left: 0;
    width: 100%;
-   height: 130%;
+   height: 125%;
    background-color: rgba(255, 166, 0);
    display: flex;
    justify-content: center;
@@ -346,8 +346,132 @@ section {
 .container .learn-more {
    padding: 20px;
 }
-
 /* Service End */
+
+
+
+/* Produk Start */
+.produk .produk-wrapper {
+   margin: auto;
+}
+
+.produk-wrapper .row1 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.row1 .label-produk {
+   font-size: 20px;
+   font-family: var(--heading-font);
+   font-weight: 700;
+   color: var(--second-color);
+}
+
+.row1 .heading-produk {
+   font-size: 40px;
+   font-weight: 700;
+   font-family: var(--heading-font);
+   color: #4a4a4a;
+   margin-top: 10px;
+}
+
+.row1 .toggle-slider i {
+   font-size: 2.5rem;
+   color: var(--main-color);
+   cursor: pointer;
+}
+
+.produk-wrapper .row2 {
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
+
+.produk-wrapper .card-produk {
+   position: relative;
+   width: 400px;
+   border-radius: 20px;
+   overflow-y: hidden;
+}
+
+.row2 .detail-produk {
+   background-color: rgba(255, 255, 255, 0.479);
+   position: absolute;
+   bottom: -45%;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 75%;
+   padding: 30px;
+   border-radius: 20px;
+   border: 3px solid #ffff;
+   backdrop-filter: blur(3px);
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.171);
+   transition: .5s ease-in-out;
+}
+
+.card-produk:hover .detail-produk {
+   bottom: 0;
+   transition: .5s ease-in-out;
+}
+
+.detail-produk .kategori {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.kategori .label-kategori {
+   padding: 5px 20px;
+   background-color: var(--second-color);
+   color: #ffff;
+   border-radius: 5px;
+}
+
+.kategori .price {
+   background-color: var(--main-color);
+   color: #ffff;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.detail-produk .title-card h1 {
+   font-size: 30px;
+   font-weight: 600;
+   font-family: var(--heading-font);
+   color: #4a4a4a;
+}
+
+.detail-produk .review {
+   display: flex;
+   gap: 10px;
+}
+
+.review i {
+   color: yellow;
+}
+
+.detail-produk .body-card {
+   margin: 25px 0;
+}
+
+.detail-produk .btn-produk {
+   background-color: var(--second-color);
+   width: 50%;
+   margin: auto;
+   text-align: center;
+   padding: 10px 0;
+   border-radius: 50px;
+}
+
+.btn-produk a {
+   color: #ffff;
+}
+
+/* Produk End */
 
 /* Media Query Navbar di Ukuran 991px --> Desktop Small */
 @media screen and (max-width: 991px) {
