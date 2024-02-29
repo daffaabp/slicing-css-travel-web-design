@@ -470,8 +470,119 @@ section {
 .btn-produk a {
    color: #ffff;
 }
-
 /* Produk End */
+
+
+/* Banner 1 Start */
+.banner1 {
+   color: #ffff;
+   margin: 200px 150px;
+   background-color: var(--main-color);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px 80px;
+   border-radius: 10px;
+}
+
+.banner1 .heading {
+   font-family: var(--heading-font);
+   font-size: 40px;
+}
+
+.banner1 .content {
+   text-align: center;
+}
+
+.banner1 h3 {
+   font-size: 20px;
+   padding: 15px 30px;
+   background-color: #355DAB;
+   border-radius: 15px;
+   margin: 20px 0px;
+}
+
+.banner1 p {
+   font-size: 20px;
+   font-family: var(--heading-font);
+}
+
+.banner1 .btn-book {
+   background-color: var(--second-color);
+   padding: 20px 40px;
+   border-radius: 50px;
+}
+
+.banner1 .btn-book a {
+   color: #ffff;
+}
+/* Banner 1 End */
+
+
+/* Statistik Start */
+.statistik-wrapper {
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.statistik-wrapper .content-img {
+   max-width: 600px;
+   flex: 0 0 50%;
+}
+
+.statistik-wrapper .content-statis {
+   flex: 0 0 50%;
+}
+
+.content-img img {
+   width: 100%;
+}
+
+.content-statis .label-statis {
+   font-size: 20px;
+   font-family: var(--heading-font);
+   color: var(--second-color);
+}
+
+.content-statis .heading-statis {
+   font-family: var(--heading-font);
+   font-size: 40px;
+   font-weight: 700;
+   width: 70%;
+   margin: 20px 0;
+}
+
+.content-statis .subheading-statis {
+   font-size: 20px;
+   width: 70%;
+}
+
+.content-statis .angka-wrapper {
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin-top: 30px;
+}
+
+.angka-wrapper .box-angka {
+   text-align: center;
+}
+
+.box-angka h1 {
+   font-family: var(--heading-font);
+   font-weight: 800;
+   color: var(--second-color);
+   font-size: 45px;
+}
+
+
+/* Statistik End */
+
+
+
+
 
 /* Media Query Navbar di Ukuran 991px --> Desktop Small */
 @media screen and (max-width: 991px) {
